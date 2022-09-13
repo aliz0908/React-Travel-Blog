@@ -1,0 +1,65 @@
+.card {
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    margin: 1em auto;
+    cursor: pointer;
+    transition: 400ms ease-in-out transform
+}
+
+.card img {
+    object-fit:cover;
+    width: 30%;
+}
+
+.card_content {
+    padding: 1em
+}
+
+h1 {
+    padding: .7rem 0 .2rem;
+    margin: 0;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.location_container {
+    display: flex;
+    align-items: baseline;
+    font-size: 10px
+}
+
+.googleLoc {
+    margin-left: 1.4em;
+    color: #918E9B;
+
+}
+
+.location {
+    color: #2B283A;
+    text-transform: uppercase;
+    letter-spacing: 1px
+}
+
+
+
+.timePeriod {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 1em 0 1em
+}
+
+.cardDescription {
+    line-height: 170%;
+    font-size: 11px;
+}
+
+.googleLoc:hover {
+    color: blue
+}
+
+.card:hover {
+    background: rgba(0,0,0, .1);
+    transform: scale(1.05);
+    transition: 400ms ease-in-out transform
+}
